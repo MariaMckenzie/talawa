@@ -4,7 +4,7 @@ import 'package:talawa/models/user/user_info.dart';
 
 part 'org_info.g.dart';
 
-/// An organization's information details.
+/// An organization's information details generated as TypeAdapter.
 @HiveType(typeId: 2)
 @JsonSerializable()
 class OrgInfo {
