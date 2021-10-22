@@ -4,6 +4,7 @@ import 'package:talawa/models/user/user_info.dart';
 
 part 'org_info.g.dart';
 
+/// An organization's information details.
 @HiveType(typeId: 2)
 class OrgInfo {
   OrgInfo(
