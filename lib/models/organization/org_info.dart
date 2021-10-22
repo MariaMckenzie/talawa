@@ -6,6 +6,7 @@ part 'org_info.g.dart';
 
 /// An organization's information details.
 @HiveType(typeId: 2)
+@JsonSerializable()
 class OrgInfo {
   OrgInfo(
       {this.admins,
