@@ -1,11 +1,9 @@
 import 'package:json_annotation/json_annotation.dart';
 part 'chat_user.g.dart';
 
-/// A user that engages in chat messaging
+/// A ChatUser object engages in chat messaging and can be encoded into a string.
 @JsonSerializable()
 class ChatUser {
-  /// The generated code below executes if the corresponding JSON value doesn't
-  /// exist or is empty.
 
   /// Nullable instance properties
   String? name;
@@ -21,6 +19,5 @@ class ChatUser {
 
   /// Connects the generated [_$ChatUserToJson] function to the `toJson` method. 
   Map<String, dynamic> toJson() => _$ChatUserToJson(this);
-
 
 }
